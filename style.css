@@ -2,8 +2,9 @@ body{
     background-color: black;
     background-image: url(./img/background.jpg);
     background-position:center;
-    background-size: 150%;
+    background-size: 200%;
     background-repeat: no-repeat;
+    width: 100%;
 }
 #corpobola{
     display: flex;
@@ -11,22 +12,29 @@ body{
     width: 100vw;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: center;    
 }
+
 #olhoOraculo{
-    background-color: transparent;
+    background: url(./img/Olho.png) no-repeat;
+    background-size: cover;
     border-radius: 50%;
-    width: 50%;
-    height: 50%;
+    width:40vw;
+    height:40vw;
+    border: none;
+    padding: 20px;
+    margin: 40px;
 }
+
+
 h1{
     color: white;
+    font-size: 50px;
+    text-align: center;
 }
 p{
     color:red;
-}
-button img {
-width:100%;
-length:100%;
+    text-align:center;
+    font-size: 30px;
 }
     
