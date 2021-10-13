@@ -1,8 +1,9 @@
 body{
-    background-color: cornflowerblue;
+    background-color: black;
     background-image: url(./img/background.jpg);
     background-position:center;
-    background-size: auto;
+    background-size: 150%;
+    background-repeat: no-repeat;
 }
 #corpobola{
     display: flex;
@@ -12,3 +13,20 @@ body{
     align-items: center;
     justify-content: space-evenly;    
 }
+#olhoOraculo{
+    background-color: transparent;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+h1{
+    color: white;
+}
+p{
+    color:red;
+}
+button img {
+width:100%;
+length:100%;
+}
+    

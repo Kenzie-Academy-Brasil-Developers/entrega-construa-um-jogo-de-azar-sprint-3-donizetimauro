@@ -49,6 +49,6 @@ function darresposta(){
     }
 }
 //comando para imprimir na tela o resultado ao clicar no botão.
-document.getElementById("bolaCristal").addEventListener("click", function() {
+document.getElementById("olhoOraculo").addEventListener("click", function() {
     document.getElementById("textoBola").innerHTML = darresposta();
 });
