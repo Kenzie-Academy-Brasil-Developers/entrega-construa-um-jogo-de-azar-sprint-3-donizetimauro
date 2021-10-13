@@ -1,5 +1,8 @@
 body{
     background-color: cornflowerblue;
+    background-image: url(./img/background.jpg);
+    background-position:center;
+    background-size: auto;
 }
 #corpobola{
     display: flex;
@@ -7,5 +10,5 @@ body{
     width: 100vw;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;    
 }
