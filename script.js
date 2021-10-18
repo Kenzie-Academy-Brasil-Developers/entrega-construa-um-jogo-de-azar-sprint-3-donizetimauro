@@ -17,11 +17,11 @@ function darresposta(){
     }else if(final==5){
         return "Pode contar com isso!"
     }else if(final==6){
-        return"como posso ver, sim!"
+        return"Como posso ver, sim!"
     }else if(final==7){
-        return "é muito provável"
+        return "É muito provável"
     }else if(final==8){
-        return "uma boa chance de ocorrer"
+        return "Uma boa chance de ocorrer"
     }else if(final==9){
         return "Sim!"
     }else if(final==10){
